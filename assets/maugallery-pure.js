@@ -1,4 +1,5 @@
 function mauGallery(options) {
+    console.log('mauGallery function called');
     var options = Object.assign({}, mauGallery.defaults, options);
     var tagsCollection = [];
     var galleries = document.querySelectorAll('.gallery');

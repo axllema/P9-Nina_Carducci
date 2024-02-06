@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('.gallery').mauGallery({
+document.addEventListener('DOMContentLoaded', function() {
+    mauGallery({
         columns: {
             xs: 1,
             sm: 2,
@@ -12,4 +12,7 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+
+    // Afficher la galerie une fois qu'elle est initialisée
+    document.querySelector('.gallery').style.display = 'block';
 });
