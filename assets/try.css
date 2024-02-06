@@ -1,0 +1,154 @@
+/* Media queries pour les écrans de taille >= 576px */
+@media (min-width: 576px) {
+    .col-sm {
+      flex: 1 0 0%;
+    }
+  
+    .row-cols-sm-auto > * {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .row-cols-sm-1 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .row-cols-sm-2 > * {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .row-cols-sm-3 > * {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .row-cols-sm-4 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .row-cols-sm-5 > * {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+  
+    .row-cols-sm-6 > * {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-sm-auto {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .col-sm-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+    }
+  
+    .col-sm-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+    }
+  
+    .col-sm-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-sm-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-sm-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+    }
+  
+    .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  
+  /* Media queries pour les écrans de taille >= 768px */
+  @media (min-width: 768px) {
+    .col-md {
+      flex: 1 0 0%;
+    }
+  
+    .row-cols-md-auto > * {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .row-cols-md-1 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .row-cols-md-2 > * {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .row-cols-md-3 > * {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .row-cols-md-4 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .row-cols-md-5 > * {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+  
+    .row-cols-md-6 > * {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-md-auto {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .col-md-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+    }
+  
+    .col-md-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+    }
+  
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-md-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-md-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+    }
+  
+    .col-md-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  
