@@ -333,6 +333,12 @@ textarea {
   pointer-events: none;
 }
 
+@media (min-width: 340px) {
+  .modal-dialog {
+  max-width: 335px;
+  }
+}
+
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
@@ -370,11 +376,12 @@ textarea {
   .modal.fade .modal-dialog {
       transition: none;
   }
-  }
-  .modal.show .modal-dialog {
+}
+
+.modal.show .modal-dialog {
   transform: none;
-  }
-  .modal-backdrop {
+}
+.modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -382,13 +389,13 @@ textarea {
   width: 100vw;
   height: 100vh;
   background-color: #000;
-  }
-  .modal-backdrop.fade {
+}
+.modal-backdrop.fade {
   opacity: 0;
-  }
-  .modal-backdrop.show {
+}
+.modal-backdrop.show {
   opacity: 0.5;
-  }  
+}  
 
 .carousel {
   position: relative;
